@@ -265,4 +265,9 @@ $zen-auto-include-item-base: false;
       @include zen-grid-item(1, 5);
     }
   }
+  .media-vimeo-video iframe {
+    width: 90%;
+    max-width: 100%;
+    height: 100%;
+  }
 }
