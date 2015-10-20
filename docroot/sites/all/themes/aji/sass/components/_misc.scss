@@ -510,7 +510,7 @@ span.field-label {
 /* The active item in a Drupal menu. */
 .menu a.active {
   color: #000;
-  border-bottom: 3px solid #4D791F;
+  border-bottom: 3px solid #222;
 }
 
 /**
@@ -1143,11 +1143,8 @@ header#header {
 }
 
 .column-center {
-  text-align: center;
   width: 920px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 120px;
+  margin-top: 360px;
 }
 
 .view-id-logos ul {
@@ -1194,6 +1191,15 @@ a.cta-secondary:link, a.cta-secondary:visited {
 a.cta-secondary:hover, a.cta-secondary:active {
   text-decoration: underline;
 }
+
+a#main-menu-quote {
+    color: #fff;
+    background: #222;
+    border-radius: 24px;
+    padding: 12px;
+}
+
+
 
 
 

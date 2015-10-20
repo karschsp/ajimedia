@@ -1471,7 +1471,7 @@ span.field-label {
 /* line 511, ../sass/components/_misc.scss */
 .menu a.active {
   color: #000;
-  border-bottom: 3px solid #4D791F;
+  border-bottom: 3px solid #222;
 }
 
 /**
@@ -2162,20 +2162,17 @@ header#header {
 
 /* line 1145, ../sass/components/_misc.scss */
 .column-center {
-  text-align: center;
   width: 920px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 120px;
+  margin-top: 360px;
 }
 
-/* line 1153, ../sass/components/_misc.scss */
+/* line 1150, ../sass/components/_misc.scss */
 .view-id-logos ul {
   list-style: none;
   float: left;
 }
 
-/* line 1158, ../sass/components/_misc.scss */
+/* line 1155, ../sass/components/_misc.scss */
 .view-id-logos ul li {
   display: inline;
   float: left;
@@ -2183,7 +2180,7 @@ header#header {
   border: 1px solid #eee;
 }
 
-/* line 1166, ../sass/components/_misc.scss */
+/* line 1163, ../sass/components/_misc.scss */
 .panels-flexible-row-1-main-row {
   width: 1000px;
   margin-left: auto !important;
@@ -2191,7 +2188,7 @@ header#header {
   text-align: center;
 }
 
-/* line 1173, ../sass/components/_misc.scss */
+/* line 1170, ../sass/components/_misc.scss */
 a.cta-primary:link, a.cta-primary:visited {
   background: #fff;
   color: #666;
@@ -2199,7 +2196,7 @@ a.cta-primary:link, a.cta-primary:visited {
   text-decoration: none;
 }
 
-/* line 1180, ../sass/components/_misc.scss */
+/* line 1177, ../sass/components/_misc.scss */
 a.cta-primary:hover, a.cta-primary:active {
   background: #fff;
   color: #222;
@@ -2207,7 +2204,7 @@ a.cta-primary:hover, a.cta-primary:active {
   text-decoration: underline;
 }
 
-/* line 1187, ../sass/components/_misc.scss */
+/* line 1184, ../sass/components/_misc.scss */
 a.cta-secondary:link, a.cta-secondary:visited {
   background: #222;
   color: #fff;
@@ -2215,9 +2212,17 @@ a.cta-secondary:link, a.cta-secondary:visited {
   text-decoration: none;
 }
 
-/* line 1194, ../sass/components/_misc.scss */
+/* line 1191, ../sass/components/_misc.scss */
 a.cta-secondary:hover, a.cta-secondary:active {
   text-decoration: underline;
+}
+
+/* line 1195, ../sass/components/_misc.scss */
+a#main-menu-quote {
+  color: #fff;
+  background: #222;
+  border-radius: 24px;
+  padding: 12px;
 }
 
 /**
