@@ -1937,30 +1937,31 @@ header {
   background: #fff;
   color: #222;
   padding-top: 20px;
+  margin-top: 240px;
 }
 
-/* line 955, ../sass/components/_misc.scss */
+/* line 956, ../sass/components/_misc.scss */
 .pane-portfolio-panel-pane-1 .views-field-field-description ul {
   padding-left: 0;
 }
-/* line 957, ../sass/components/_misc.scss */
+/* line 958, ../sass/components/_misc.scss */
 .pane-portfolio-panel-pane-1 .views-field-field-description ul li {
   list-style: none;
 }
 
-/* line 962, ../sass/components/_misc.scss */
+/* line 963, ../sass/components/_misc.scss */
 .pane-portfolio-panel-pane-1 h4 {
   text-align: center;
 }
 
-/* line 966, ../sass/components/_misc.scss */
+/* line 967, ../sass/components/_misc.scss */
 .pane-about-panel-pane-1 {
   background: #222;
   color: #fff;
   padding-top: 20px;
 }
 
-/* line 972, ../sass/components/_misc.scss */
+/* line 973, ../sass/components/_misc.scss */
 .pane-portfolio-panel-pane-1 h2,
 .pane-services-panel-pane-1 h2,
 .pane-about-panel-pane-1 h2 {
@@ -1969,7 +1970,7 @@ header {
   text-align: left;
 }
 
-/* line 980, ../sass/components/_misc.scss */
+/* line 981, ../sass/components/_misc.scss */
 .pane-portfolio-panel-pane-1 .view-id-portfolio,
 .pane-services-panel-pane-1 .view-services,
 .pane-about-panel-pane-1 .view-about {
@@ -1978,7 +1979,7 @@ header {
   margin-right: auto;
 }
 
-/* line 990, ../sass/components/_misc.scss */
+/* line 991, ../sass/components/_misc.scss */
 .pane-node h2 {
   font-size: 30px;
   letter-spacing: 22px;
@@ -1990,14 +1991,14 @@ header {
   border: 10px solid #fff;
 }
 
-/* line 1002, ../sass/components/_misc.scss */
+/* line 1003, ../sass/components/_misc.scss */
 .view-id-portfolio .views-column-first,
 .view-id-portfolio .views-column-last {
   float: left;
   width: 24%;
 }
 
-/* line 1009, ../sass/components/_misc.scss */
+/* line 1010, ../sass/components/_misc.scss */
 #node-capabilities {
   background: #222;
   color: #fff;
@@ -2005,14 +2006,14 @@ header {
   padding-bottom: 60px;
   margin-top: 60px;
 }
-/* line 1015, ../sass/components/_misc.scss */
+/* line 1016, ../sass/components/_misc.scss */
 #node-capabilities ul {
   text-align: center;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 1021, ../sass/components/_misc.scss */
+/* line 1022, ../sass/components/_misc.scss */
 #node-capabilities li {
   display: inline;
   list-style-type: none;
@@ -2024,76 +2025,77 @@ header {
   border-right: 1px solid #777;
 }
 
-/* line 1033, ../sass/components/_misc.scss */
+/* line 1034, ../sass/components/_misc.scss */
 #project-form {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 1037, ../sass/components/_misc.scss */
+/* line 1038, ../sass/components/_misc.scss */
 #project-form h2 {
   width: 100%;
   border: 6px solid #222;
 }
-/* line 1041, ../sass/components/_misc.scss */
+/* line 1042, ../sass/components/_misc.scss */
 #project-form fieldset {
   border: none;
 }
-/* line 1043, ../sass/components/_misc.scss */
+/* line 1044, ../sass/components/_misc.scss */
 #project-form fieldset legend {
   font-weight: bold;
 }
-/* line 1046, ../sass/components/_misc.scss */
+/* line 1047, ../sass/components/_misc.scss */
 #project-form fieldset .webform-component {
   width: 45%;
   float: left;
 }
-/* line 1051, ../sass/components/_misc.scss */
+/* line 1052, ../sass/components/_misc.scss */
 #project-form .webform-component--how-soon-do-we-need-to-start, #project-form .webform-component--give-us-a-rough-idea-of-your-budget {
   width: 45%;
   float: left;
 }
-/* line 1055, ../sass/components/_misc.scss */
+/* line 1056, ../sass/components/_misc.scss */
 #project-form .webform-component--project-details--message {
   clear: left;
   width: 90% !important;
 }
 
-/* line 1061, ../sass/components/_misc.scss */
+/* line 1062, ../sass/components/_misc.scss */
 .pane-node-title {
   position: relative;
   z-index: 30;
 }
 
-/* line 1066, ../sass/components/_misc.scss */
+/* line 1067, ../sass/components/_misc.scss */
 .pane-node-title .pane-title {
   display: none;
 }
 
-/* line 1070, ../sass/components/_misc.scss */
+/* line 1071, ../sass/components/_misc.scss */
 .pane-node-title h2 {
   font-size: 50px;
   letter-spacing: 22px;
   text-align: center;
-  color: #fff;
+  color: #222;
 }
 
-/* line 1077, ../sass/components/_misc.scss */
+/* line 1078, ../sass/components/_misc.scss */
 .pane-node-field-sub-title {
   font-family: "Montserrat", "Helvetica Neue", arial, sans-serif;
   text-align: center;
   display: block;
   width: 100%;
-  font-size: 22px;
-  letter-spacing: 14px;
+  font-size: 56px;
+  letter-spacing: 24px;
   z-index: 31;
   position: relative;
+  top: 200px;
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
 }
 
-/* line 1091, ../sass/components/_misc.scss */
+/* line 1093, ../sass/components/_misc.scss */
 .pane-node-field-header-image {
   position: absolute;
   top: 80px;
@@ -2103,50 +2105,50 @@ header {
   max-width: 100%;
 }
 
-/* line 1100, ../sass/components/_misc.scss */
+/* line 1102, ../sass/components/_misc.scss */
 .section-contact .pane-node-field-header-image img {
   margin-top: -560px;
 }
 
-/* line 1103, ../sass/components/_misc.scss */
+/* line 1105, ../sass/components/_misc.scss */
 .section-services .pane-node-field-header-image img {
   margin-top: -120px;
 }
 
-/* line 1106, ../sass/components/_misc.scss */
+/* line 1108, ../sass/components/_misc.scss */
 .section-about .pane-node-field-header-image img {
   margin-top: -460px;
 }
 
-/* line 1110, ../sass/components/_misc.scss */
+/* line 1112, ../sass/components/_misc.scss */
 .pane-node-body {
   position: relative;
   top: 240px;
 }
 
-/* line 1115, ../sass/components/_misc.scss */
+/* line 1117, ../sass/components/_misc.scss */
 #project-form .form-text {
   width: 90%;
 }
 
-/* line 1119, ../sass/components/_misc.scss */
+/* line 1121, ../sass/components/_misc.scss */
 .page-node .pane-node-body {
   width: 920px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 1123, ../sass/components/_misc.scss */
+/* line 1125, ../sass/components/_misc.scss */
 .page-node .pane-node-body p:first-child {
   font-size: 24px;
 }
 
-/* line 1128, ../sass/components/_misc.scss */
+/* line 1130, ../sass/components/_misc.scss */
 .pane-page-logo {
   float: left;
   width: 300px;
 }
 
-/* line 1133, ../sass/components/_misc.scss */
+/* line 1135, ../sass/components/_misc.scss */
 .pane-system-main-menu {
   float: right;
   clear: none;
@@ -2155,24 +2157,24 @@ header {
   margin-top: 20px;
 }
 
-/* line 1141, ../sass/components/_misc.scss */
+/* line 1143, ../sass/components/_misc.scss */
 header#header {
   display: none;
 }
 
-/* line 1145, ../sass/components/_misc.scss */
+/* line 1147, ../sass/components/_misc.scss */
 .column-center {
   width: 920px;
   margin-top: 360px;
 }
 
-/* line 1150, ../sass/components/_misc.scss */
+/* line 1152, ../sass/components/_misc.scss */
 .view-id-logos ul {
   list-style: none;
   float: left;
 }
 
-/* line 1155, ../sass/components/_misc.scss */
+/* line 1157, ../sass/components/_misc.scss */
 .view-id-logos ul li {
   display: inline;
   float: left;
@@ -2180,7 +2182,7 @@ header#header {
   border: 1px solid #eee;
 }
 
-/* line 1163, ../sass/components/_misc.scss */
+/* line 1165, ../sass/components/_misc.scss */
 .panels-flexible-row-1-main-row {
   width: 1000px;
   margin-left: auto !important;
@@ -2188,7 +2190,7 @@ header#header {
   text-align: center;
 }
 
-/* line 1170, ../sass/components/_misc.scss */
+/* line 1172, ../sass/components/_misc.scss */
 a.cta-primary:link, a.cta-primary:visited {
   background: #fff;
   color: #666;
@@ -2196,7 +2198,7 @@ a.cta-primary:link, a.cta-primary:visited {
   text-decoration: none;
 }
 
-/* line 1177, ../sass/components/_misc.scss */
+/* line 1179, ../sass/components/_misc.scss */
 a.cta-primary:hover, a.cta-primary:active {
   background: #fff;
   color: #222;
@@ -2204,7 +2206,7 @@ a.cta-primary:hover, a.cta-primary:active {
   text-decoration: underline;
 }
 
-/* line 1184, ../sass/components/_misc.scss */
+/* line 1186, ../sass/components/_misc.scss */
 a.cta-secondary:link, a.cta-secondary:visited {
   background: #222;
   color: #fff;
@@ -2212,12 +2214,12 @@ a.cta-secondary:link, a.cta-secondary:visited {
   text-decoration: none;
 }
 
-/* line 1191, ../sass/components/_misc.scss */
+/* line 1193, ../sass/components/_misc.scss */
 a.cta-secondary:hover, a.cta-secondary:active {
   text-decoration: underline;
 }
 
-/* line 1195, ../sass/components/_misc.scss */
+/* line 1197, ../sass/components/_misc.scss */
 a#main-menu-quote {
   color: #fff;
   background: #222;

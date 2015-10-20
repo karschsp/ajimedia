@@ -950,6 +950,7 @@ list-style-type: none;
   background: #fff;
   color: #222;
   padding-top: 20px;
+  margin-top: 240px;
 }
 
 .pane-portfolio-panel-pane-1 .views-field-field-description ul {
@@ -1071,7 +1072,7 @@ list-style-type: none;
   font-size: 50px;
   letter-spacing: 22px;
   text-align: center;
-  color: #fff;
+  color: #222;
 }
 
 .pane-node-field-sub-title {
@@ -1079,10 +1080,11 @@ list-style-type: none;
   text-align: center;
   display: block;
   width: 100%;
-  font-size: 22px;
-  letter-spacing: 14px;
+  font-size: 56px;
+  letter-spacing: 24px;
   z-index: 31;
   position: relative;
+  top: 200px;
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
