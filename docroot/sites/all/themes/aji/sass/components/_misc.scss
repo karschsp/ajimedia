@@ -1084,10 +1084,13 @@ list-style-type: none;
   letter-spacing: 24px;
   z-index: 31;
   position: relative;
-  top: 200px;
+  top: 140px;
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
+  line-height: 84px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pane-node-field-header-image {
