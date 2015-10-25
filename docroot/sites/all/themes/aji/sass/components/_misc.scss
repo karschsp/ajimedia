@@ -825,7 +825,7 @@ tr.selected td {
   display: none;
 }
 
-.panels-flexible-row-aji_main-main-row {
+.panels-flexible-row-aji_main-main-row, .panels-flexible-row-1-main-row {
   width: 1000px;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -845,9 +845,178 @@ tr.selected td {
   list-style-image: none;
   display: inline;
   a {
+    font-family: 'Montserrat', 'Helvetica Neue', 'arial', sans-serif;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
     margin-right: 24px;
+  }
+}
+
+.pane-node-field-header-image {
+  overflow: hidden;
+  height: 480px;
+  width: 100%;
+  max-width: 100%;
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.section-services {
+  .pane-node-field-header-image {
+    img {
+      margin-top: -120px;
+    }
+  }
+}
+
+.section-about {
+  .pane-node-field-header-image {
+    img {
+      margin-top: -360px;
+    }
+  }
+  .pane-node-field-sub-title {
+    margin-top: -400px;
+    margin-bottom: 200px;
+  }
+}
+
+.section-contact {
+  .pane-node-field-header-image {
+    img {
+      margin-top: -520px;
+    }
+  }
+  /* .pane-node-field-sub-title {
+    margin-top: -400px;
+    margin-bottom: 200px;
+  } */
+}
+
+
+.pane-node-field-sub-title {
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: -360px;
+  margin-bottom: 240px;
+  h2 {
+    color: #fff;
+    font-size: 48px;
+    letter-spacing: 24px;
+  }
+}
+
+/** Contact Form **/
+
+.webform-client-form {
+    legend { text-align: center; font-weight: bold; font-family: "Montserrat"; text-transform: uppercase;}
+	fieldset {border: none;}    
+
+	.webform-component--how-can-we-get-in-touch {
+		.webform-component-textfield, .webform-component-email {
+		  float: left;
+		  width: 45%;
+		  margin-right: 4%;
+		}
+		.webform-component--how-can-we-get-in-touch--email-address {
+		  clear: left;
+		}	
+	}
+
+	.webform-component--project-details {
+	  .webform-component--project-details--how-soon-do-we-need-to-start, 
+	  .webform-component--project-details--give-us-a-rough-idea-of-your-budget {
+		float: left;
+		width: 45%;
+		margin-right: 4%;
+	  }
+	  .webform-component--project-details--message {
+		clear: left;
+	  }
+	}
+}
+
+/** Testimonials **/
+.view-random-testimonial {
+  border-top: 3px solid #f00;
+  border-bottom: 3px solid #f00;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 48px;
+  color: #7f7f2f;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .views-field-title {
+    font-size: 24px;
+  }
+
+}
+
+/** Homepage **/
+.page-homepage {
+  #header-tag h2.pane-title {
+    display: none;
+  }
+  
+  .field-name-field-background-image {
+    height: 480px;
+    overflow: hidden;
+    img {
+      margin-top: -240px;
+    }
+  }
+  
+  
+  h2.field-name-field-heading-text, .field-name-field-subheading-text {
+    margin-top: -360px;
+    margin-bottom: 300px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h2.field-name-field-heading-text {
+    font-size: 48px;
+    letter-spacing: 24px;
+  }
+  
+  .field-name-field-subheading-text {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    line-height: 48px;
+    margin-top: -300px;
+    font-size: 24px;
+    letter-spacing: 4px;
+    
+    a {
+      font-size: 18px;
+      padding-top: 18px;
+      letter-spacing: 0;
+    }
+  }
+  
+  .view-id-logos {
+    ul {
+      list-style: none;
+      li {
+        display: inline;
+        margin-right: 5%;
+        float: left;
+      }
+    }
   }
 }

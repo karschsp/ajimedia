@@ -1796,7 +1796,7 @@ tr.selected td {
 }
 
 /* line 828, ../sass/components/_misc.scss */
-.panels-flexible-row-aji_main-main-row {
+.panels-flexible-row-aji_main-main-row, .panels-flexible-row-1-main-row {
   width: 1000px;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -1821,10 +1821,179 @@ tr.selected td {
 }
 /* line 847, ../sass/components/_misc.scss */
 .menu__item.is-leaf a {
+  font-family: 'Montserrat', 'Helvetica Neue', 'arial', sans-serif;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
   margin-right: 24px;
+}
+
+/* line 856, ../sass/components/_misc.scss */
+.pane-node-field-header-image {
+  overflow: hidden;
+  height: 480px;
+  width: 100%;
+  max-width: 100%;
+}
+/* line 861, ../sass/components/_misc.scss */
+.pane-node-field-header-image img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 869, ../sass/components/_misc.scss */
+.section-services .pane-node-field-header-image img {
+  margin-top: -120px;
+}
+
+/* line 877, ../sass/components/_misc.scss */
+.section-about .pane-node-field-header-image img {
+  margin-top: -360px;
+}
+/* line 881, ../sass/components/_misc.scss */
+.section-about .pane-node-field-sub-title {
+  margin-top: -400px;
+  margin-bottom: 200px;
+}
+
+/* line 887, ../sass/components/_misc.scss */
+.section-contact {
+  /* .pane-node-field-sub-title {
+    margin-top: -400px;
+    margin-bottom: 200px;
+  } */
+}
+/* line 889, ../sass/components/_misc.scss */
+.section-contact .pane-node-field-header-image img {
+  margin-top: -520px;
+}
+
+/* line 900, ../sass/components/_misc.scss */
+.pane-node-field-sub-title {
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: -360px;
+  margin-bottom: 240px;
+}
+/* line 907, ../sass/components/_misc.scss */
+.pane-node-field-sub-title h2 {
+  color: #fff;
+  font-size: 48px;
+  letter-spacing: 24px;
+}
+
+/** Contact Form **/
+/* line 917, ../sass/components/_misc.scss */
+.webform-client-form legend {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+/* line 918, ../sass/components/_misc.scss */
+.webform-client-form fieldset {
+  border: none;
+}
+/* line 921, ../sass/components/_misc.scss */
+.webform-client-form .webform-component--how-can-we-get-in-touch .webform-component-textfield, .webform-client-form .webform-component--how-can-we-get-in-touch .webform-component-email {
+  float: left;
+  width: 45%;
+  margin-right: 4%;
+}
+/* line 926, ../sass/components/_misc.scss */
+.webform-client-form .webform-component--how-can-we-get-in-touch .webform-component--how-can-we-get-in-touch--email-address {
+  clear: left;
+}
+/* line 932, ../sass/components/_misc.scss */
+.webform-client-form .webform-component--project-details .webform-component--project-details--how-soon-do-we-need-to-start,
+.webform-client-form .webform-component--project-details .webform-component--project-details--give-us-a-rough-idea-of-your-budget {
+  float: left;
+  width: 45%;
+  margin-right: 4%;
+}
+/* line 938, ../sass/components/_misc.scss */
+.webform-client-form .webform-component--project-details .webform-component--project-details--message {
+  clear: left;
+}
+
+/** Testimonials **/
+/* line 945, ../sass/components/_misc.scss */
+.view-random-testimonial {
+  border-top: 3px solid #f00;
+  border-bottom: 3px solid #f00;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 48px;
+  color: #7f7f2f;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 961, ../sass/components/_misc.scss */
+.view-random-testimonial .views-field-title {
+  font-size: 24px;
+}
+
+/** Homepage **/
+/* line 969, ../sass/components/_misc.scss */
+.page-homepage #header-tag h2.pane-title {
+  display: none;
+}
+/* line 973, ../sass/components/_misc.scss */
+.page-homepage .field-name-field-background-image {
+  height: 480px;
+  overflow: hidden;
+}
+/* line 976, ../sass/components/_misc.scss */
+.page-homepage .field-name-field-background-image img {
+  margin-top: -240px;
+}
+/* line 982, ../sass/components/_misc.scss */
+.page-homepage h2.field-name-field-heading-text, .page-homepage .field-name-field-subheading-text {
+  margin-top: -360px;
+  margin-bottom: 300px;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+}
+/* line 992, ../sass/components/_misc.scss */
+.page-homepage h2.field-name-field-heading-text {
+  font-size: 48px;
+  letter-spacing: 24px;
+}
+/* line 997, ../sass/components/_misc.scss */
+.page-homepage .field-name-field-subheading-text {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  line-height: 48px;
+  margin-top: -300px;
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+/* line 1005, ../sass/components/_misc.scss */
+.page-homepage .field-name-field-subheading-text a {
+  font-size: 18px;
+  padding-top: 18px;
+  letter-spacing: 0;
+}
+/* line 1013, ../sass/components/_misc.scss */
+.page-homepage .view-id-logos ul {
+  list-style: none;
+}
+/* line 1015, ../sass/components/_misc.scss */
+.page-homepage .view-id-logos ul li {
+  display: inline;
+  margin-right: 5%;
+  float: left;
 }
 
 /**
